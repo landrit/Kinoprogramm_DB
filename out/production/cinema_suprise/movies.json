@@ -1,0 +1,45 @@
+[
+  {
+    "id": 0,
+    "title": "Star Wars: Rogue One",
+    "duration": 165,
+
+    "description": "Megaaaaa geile Film imfall!!!!",
+    "imagePath": "RogueOne.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Triple X the return of Xander Cage",
+    "duration": 115,
+    "description": "Vin Diesel het es geiles Auto",
+    "imagePath": "triplex.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Split",
+    "duration": 155,
+    "description": "James McAvoy is talking a lot",
+    "imagePath": "split.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Logan",
+    "duration": 125,
+    "description": "Coming soon",
+    "imagePath": "logan.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Moana",
+    "duration": 95,
+    "description": "S\u0027schweinli isch fett XD",
+    "imagePath": "vaiana.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Lala Land",
+    "duration": 185,
+    "description": "Meh als numme liebi hahaha",
+    "imagePath": "lala.jpg"
+  }
+]

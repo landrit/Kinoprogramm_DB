@@ -1,0 +1,245 @@
+[
+  {
+    "id": 0,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 11
+    },
+    "movieId": 0,
+    "reservedSeats": [
+      {
+        "place": "C06",
+        "person": "landi"
+      },
+      {
+        "place": "B06",
+        "person": "landi"
+      }
+    ],
+    "boughtSeats": [
+      {
+        "place": "B05",
+        "person": "landi"
+      },
+      {
+        "place": "D05",
+        "person": "hallo"
+      },
+      {
+        "place": "C05",
+        "person": "hallo"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 11
+    },
+    "movieId": 0,
+    "reservedSeats": [],
+    "boughtSeats": [
+      {
+        "place": "C05",
+        "person": "landrit"
+      },
+      {
+        "place": "D05",
+        "person": "landrit"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 12
+    },
+    "movieId": 1,
+    "reservedSeats": [],
+    "boughtSeats": []
+  },
+  {
+    "id": 3,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 12
+    },
+    "movieId": 1,
+    "reservedSeats": [
+      {},
+      {}
+    ],
+    "boughtSeats": []
+  },
+  {
+    "id": 4,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 2,
+    "reservedSeats": [],
+    "boughtSeats": [
+      {
+        "place": "D07",
+        "person": "landi"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 2,
+    "reservedSeats": [],
+    "boughtSeats": []
+  },
+  {
+    "id": 6,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 3,
+    "reservedSeats": [
+      {
+        "place": "A06",
+        "person": "landi"
+      },
+      {
+        "place": "B06",
+        "person": "landi"
+      }
+    ],
+    "boughtSeats": [
+      {
+        "place": "A04",
+        "person": "hallo123"
+      },
+      {
+        "place": "B04",
+        "person": "hallo123"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 3,
+    "reservedSeats": [],
+    "boughtSeats": []
+  },
+  {
+    "id": 8,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 4,
+    "reservedSeats": [],
+    "boughtSeats": []
+  },
+  {
+    "id": 9,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 4,
+    "reservedSeats": [],
+    "boughtSeats": []
+  },
+  {
+    "id": 10,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 5,
+    "reservedSeats": [],
+    "boughtSeats": [
+      {
+        "place": "D04",
+        "person": "landi"
+      },
+      {
+        "place": "E04",
+        "person": "landi"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 5,
+    "reservedSeats": [],
+    "boughtSeats": [
+      {
+        "place": "C07",
+        "person": "landi"
+      },
+      {
+        "place": "D07",
+        "person": "landi"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "playTime": "16:30",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 6,
+    "reservedSeats": [],
+    "boughtSeats": []
+  },
+  {
+    "id": 13,
+    "playTime": "20:15",
+    "date": {
+      "year": 2017,
+      "month": 2,
+      "day": 13
+    },
+    "movieId": 6,
+    "reservedSeats": [],
+    "boughtSeats": []
+  }
+]

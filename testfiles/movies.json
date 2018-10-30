@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Star Wars: Rogue One",
+    "duration": 165,
+    "description": "Megaaaaa geile Film imfall!!!!",
+    "imagePath": "RogueOne.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Triple X the return of Xander Cage",
+    "duration": 115,
+    "description": "Vin Diesel geht auch mit 60 Jahren noch sehr gut ab...",
+    "imagePath": "triplex.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Split",
+    "duration": 155,
+    "description": "James McAvoy talking to himself... the whole damn movie...",
+    "imagePath": "split.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Assasins Creed",
+    "duration": 125,
+    "description": "If a game fails to impress, make it a movie that fails as well",
+    "imagePath": "assassins.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Moana",
+    "duration": 95,
+    "description": "S\u0027schweinli sooo jööööööö und de güggel isch creepy",
+    "imagePath": "vaiana.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Lala Land",
+    "duration": 185,
+    "description": "la la la Liebe la la la",
+    "imagePath": "lala.jpg"
+  }
+]

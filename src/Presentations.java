@@ -7,9 +7,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.Writer;
 import java.lang.reflect.Type;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 
 public class Presentations extends ArrayList<Presentation> implements JSON {
@@ -38,34 +35,27 @@ public class Presentations extends ArrayList<Presentation> implements JSON {
         }
     }
 
-    public static  Presentations getPresentations(){
+    public static Presentations loadFromJson() {
         Presentations presentations = new Presentations();
-
+        Type collectionType = new TypeToken<Presentations>(){}.getType();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try {
-            DatabaseConnection.connectToDB();
-            Statement stmt = DatabaseConnection.conn.createStatement();
-            ResultSet result = stmt.executeQuery("SELECT * FROM movie");
-            while(result.next()){
-
-                Movie movie = new Movie();
-                movie.id = (result.getInt(1));
-                movie.title = (result.getString(2));
-                movie.duration = (result.getInt(3));
-                movie.description = (result.getString(4));
-                movie.imagePath = (result.getString(5));
-                movies.add(movie);
-
+            BufferedReader reader = new BufferedReader(new FileReader(Main.presentationpath));
+            String line;
+            String json = "";
+            while ((line = reader.readLine()) != null)
+            {
+                json += line;
             }
-
+            reader.close();
+            presentations = gson.fromJson(json, collectionType);
         }
-        catch (SQLException e){
-            System.out.println(e.getMessage());
+        catch (Exception ex) {
+            System.out.println("Something went terrible wrong, leave the building immediately!!!");
+            System.out.println(ex);
         }
-
-        return movies;
-
+        return presentations;
     }
-
 
 
 }
